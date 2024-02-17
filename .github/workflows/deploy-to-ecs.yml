@@ -9,7 +9,7 @@ env:
   ECR_REPOSITORY: joseph-aws-ecr-repository       
   ECS_SERVICE: joseph-terraform-ecs         
   ECS_CLUSTER: joseph-terraform-ecs                    
-  CONTAINER_NAME: ecs-sample
+  CONTAINER_NAME: joseph-terraform-ecs
   TASKDEF: joseph-terraform-ecs
                                                
 jobs:
