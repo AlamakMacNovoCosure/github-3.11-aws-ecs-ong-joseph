@@ -7,10 +7,10 @@ on:
 env:            
   AWS_REGION: ap-southeast-1           
   ECR_REPOSITORY: joseph-aws-ecr-repository       
-  ECS_SERVICE: ecsdemo         
+  ECS_SERVICE: joseph-terraform-ecs         
   ECS_CLUSTER: joseph-terraform-ecs                    
   CONTAINER_NAME: ecs-sample
-  TASKDEF: ecsdemo
+  TASKDEF: joseph-terraform-ecs
                                                
 jobs:
   deploy:
