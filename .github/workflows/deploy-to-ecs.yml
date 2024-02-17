@@ -6,11 +6,11 @@ on:
 
 env:            
   AWS_REGION: ap-southeast-1           
-  ECR_REPOSITORY: joseph-aws-ecr-repository       
+  ECR_REPOSITORY: app_ecr_repo      
   ECS_SERVICE: joseph-terraform-ecs         
-  ECS_CLUSTER: joseph-terraform-ecs                    
+  ECS_CLUSTER: joseph_cluster                    
   CONTAINER_NAME: joseph-terraform-ecs
-  TASKDEF: joseph-terraform-ecs
+  TASKDEF: app-first-task
                                                
 jobs:
   deploy:
